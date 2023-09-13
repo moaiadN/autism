@@ -49,7 +49,7 @@ video {
 }
 
 .container {
-  max-width: 1366px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -271,12 +271,18 @@ section {
   padding: 0.7rem;
   border-radius: 2rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 1px dashed var(--dark-purple);
 }
 
 .card-box img {
   width: 280px;
   height: 280px;
   border-radius: 2rem;
+  transition: all 0.5s;
+}
+
+.card-box img:hover {
+  transform: scale(1.05);
 }
 
 .benefits {
@@ -314,7 +320,7 @@ section {
 .info h2 {
   width: 100%;
   background-color: var(--dark-purple);
-  color: var(--box-color);
+  color: #FAF7FF;
   margin: 0;
   position: absolute;
   top: -40px;
@@ -553,7 +559,7 @@ footer .bx:hover {
     width: 90%;
     justify-content: start;
     height: 17rem;
-    top: 30%;
+    /* top: 30%; */
   }
 
   .content-text p {
