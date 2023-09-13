@@ -123,15 +123,12 @@ nav .nav-items .nav-item {
 
 #mode {
   border-radius: 20px;
-  /* border-right: 1px solid #fff;
-  border-left: 1px solid #fff; */
 }
 
 .btn {
   font-family: inherit;
   padding: 0.65rem 1rem;
   border: none;
-  /* color: var(--text-color); */
   color: var(--dark-purple);
   border-radius: 1rem;
   cursor: pointer;
@@ -150,13 +147,7 @@ nav .nav-items .nav-item {
   color: #fff;
 }
 
-/* content-text */
 .content-text {
-  /* height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -181,7 +172,6 @@ nav .nav-items .nav-item {
 h1 {
   color: var(--title-color);
   font-size: 3rem;
-  /* font-weight: 900; */
   margin: 1rem 0;
 }
 
@@ -244,10 +234,6 @@ section {
   width: 69%;
 }
 
-.service-box .img-box {
-  width: 30%;
-}
-
 .service-box .img-box img {
   width: 280px;
   height: 280px;
@@ -281,9 +267,11 @@ section {
   transition: all 0.5s;
 }
 
-.card-box img:hover {
+.games-list img:hover {
   transform: scale(1.05);
 }
+
+
 
 .benefits {
   margin: 2rem 0;
@@ -315,6 +303,12 @@ section {
   width: 280px;
   height: 5rem;
   position: relative;
+  transition: all .5s;
+}
+
+.member-box:hover img,
+.member-box:hover .info {
+  transform: scale(1.05);
 }
 
 .info h2 {
@@ -492,7 +486,7 @@ footer .bx:hover {
 
   .content-text {
     width: 100%;
-    top: 15%;
+    top: 12%;
     transform: translate(-50%, 0);
   }
 
@@ -543,7 +537,7 @@ footer .bx:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-items::after {
-    left: 2.75rem;
+    left: 0.75rem;
   }
 
   .container {
@@ -559,15 +553,15 @@ footer .bx:hover {
     width: 90%;
     justify-content: start;
     height: 17rem;
-    /* top: 30%; */
+    /* top: 12%; */
   }
 
   .content-text p {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   .content-text p span {
-    font-size: 1.85rem;
+    font-size: 1.5rem;
   }
 
 
@@ -617,6 +611,10 @@ footer .bx:hover {
     align-self: center;
   }
 
+  .service-box {
+    width: auto;
+  }
+
   .service-box .content {
     width: 100%;
   }
@@ -636,6 +634,7 @@ footer .bx:hover {
 
   .features {
     text-align: right;
+    margin-right: 9px;
   }
 
   .contact-container {
