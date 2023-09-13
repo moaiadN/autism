@@ -257,7 +257,7 @@ section {
   padding: 0.7rem;
   border-radius: 2rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  border: 1px dashed var(--dark-purple);
+  border: 2px dashed var(--dark-purple);
 }
 
 .card-box img {
