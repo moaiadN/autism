@@ -438,7 +438,9 @@ footer .bx:hover {
   .content-text p {
     font-size: 1.25em;
   }
-
+  .content-text p span {
+    font-size: 2rem;
+  }
   .services-list .img-box img {
     width: 220px;
   }
