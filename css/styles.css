@@ -301,7 +301,7 @@ section {
 .info {
   text-align: center;
   width: 280px;
-  height: 5rem;
+  height: 7.5rem;
   position: relative;
   transition: all .5s;
 }
@@ -412,13 +412,13 @@ footer p {
   /* margin-bottom: 1rem; */
 }
 
-footer .bx {
+.bx {
   color: var(--text-color);
-  margin: 1rem;
+  margin: 0.5rem;
   font-size: 2rem;
 }
 
-footer .bx:hover {
+.bx:hover {
   color: var(--dark-purple);
 }
 
@@ -433,15 +433,19 @@ footer .bx:hover {
   .container {
     max-width: 85%;
   }
+
   .content-text {
     top: 30%;
   }
+
   .content-text p {
     font-size: 1.25em;
   }
+
   .content-text p span {
     font-size: 2rem;
   }
+
   .services-list .img-box img {
     width: 220px;
   }
