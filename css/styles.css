@@ -432,7 +432,9 @@ footer .bx:hover {
   .container {
     max-width: 85%;
   }
-
+  .content-text {
+    top: 30%;
+  }
   .content-text p {
     font-size: 1.25em;
   }
